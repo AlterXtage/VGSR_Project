@@ -2,13 +2,13 @@
   "name": "barra-de-busqueda",
   "version": "1.0.0",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.21.1",
@@ -16,5 +16,11 @@
     "fs": "^0.0.1-security",
     "multer": "^1.4.5-lts.1",
     "mysql2": "^3.11.5"
+  },
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jsdom": "^25.0.1",
+    "supertest": "^7.0.0"
   }
 }
